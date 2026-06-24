@@ -1,0 +1,19 @@
+[tool.ruff]
+line-length = 88
+target-version = "py314"
+extend-exclude = ["Include", "Lib", "Scripts", "__pycache__", "migrations"]
+
+[tool.ruff.lint]
+preview = true
+##select = ["E", "F", "I", "UP"]
+select = ['I', 'F', 'E', 'W', 'PL', 'PT']
+
+[tool.ruff.format]
+preview = true
+quote-style = "single"
+indent-style = "space"
+
+[tool.pytest.ini_options]
+pythonpath = "."
+testpaths = ["fast_zero"]
+addopts = "-p no:warnings"
