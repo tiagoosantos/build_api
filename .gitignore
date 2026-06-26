@@ -1,10 +1,11 @@
 # Created by venv; see https://docs.python.org/3/library/venv.html
 /Lib
 /Scripts
+/Include
 pyvenv.cfg
 .coverage
 /htmlcov
 .ruff_cache
 .pytest_cache
-__pycache__
+/__pycache__
 fast_zero/__pycache__
