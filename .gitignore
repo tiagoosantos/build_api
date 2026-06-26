@@ -2,3 +2,8 @@
 /Lib
 /Scripts
 pyvenv.cfg
+.coverage
+/htmlcov
+.ruff_cache
+.pytest_cache
+/__pycache__
