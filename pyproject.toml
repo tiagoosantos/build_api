@@ -17,3 +17,9 @@ indent-style = "space"
 pythonpath = "."
 testpaths = ["fast_zero"]
 addopts = "-p no:warnings"
+
+[tool.taskipy.tasks]
+run = 'fastapi dev fast_zero/app.py'
+test = 'pytest --cov=fast_zero -vv'
+lint = 'ruff check . && ruff check --diff'
+format = 'ruff check . --fix && ruff format .'
