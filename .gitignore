@@ -6,4 +6,5 @@ pyvenv.cfg
 /htmlcov
 .ruff_cache
 .pytest_cache
-/__pycache__
+__pycache__
+fast_zero/__pycache__
