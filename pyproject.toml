@@ -13,12 +13,12 @@ no-sections = true
 
 [tool.ruff.format]
 preview = true
-quote-style = "single"
-indent-style = "space"
+quote-style = 'single'
+indent-style = 'space'
 
 [tool.pytest.ini_options]
-pythonpath = "."
-testpaths = ["fast_zero"]
+pythonpath = '.'
+testpaths = ['fast_zero']
 addopts = "-p no:warnings"
 
 [tool.taskipy.tasks]

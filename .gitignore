@@ -2,6 +2,7 @@
 /Lib
 /Scripts
 /Include
+.env
 pyvenv.cfg
 .coverage
 /htmlcov
@@ -9,3 +10,8 @@ pyvenv.cfg
 .pytest_cache
 /__pycache__
 fast_zero/__pycache__
+fast_zero/tests/__pycache__
+fast_zero/settings.py
+database.db
+migrations
+alembic.ini
